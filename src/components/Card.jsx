@@ -72,8 +72,8 @@ function Card({ name, desc, price, img }) {
             </span>
           </div>
           <div className="flex justify-between items-center">
-            <span className="text-3xl font-bold text-gray-900 dark:text-white">
-              ৳{(price * 94.29).toFixed(0)}.00
+            <span className="text-2xl font-bold text-gray-900 dark:text-white">
+              BDT: {(price * 94.29).toFixed(0)}.00
             </span>
             <a
               href="#"
