@@ -65,7 +65,7 @@ function App() {
       {/* {isLoading && (
         <h1 className="text-2xl text-center font-bold">Loading...</h1>
       )} */}
-      <div className="products w-full p-4 px-14 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
+      <div className="products w-full p-4 px-14 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
         {products.map((e, i) => (
           <>
             {isLoading ? (
